@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Python Books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+    <!-- Local CSS Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- local header stykesheet -->
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <!-- local footer stylesheet -->
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <!-- local cars stylesheet -->
+    <link rel="stylesheet" href="../assets/css/cards.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- API for Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <style>
+    body h1 {
+      color: rgb(83, 47, 142);
+      border: solid rgb(83, 47, 142);
+      background: rgba(227, 0, 255, 0.15);
+      border-width: 2px 4px;
+    }
+
+    .card {
+      border: solid rgb(83, 47, 142);
+      background: rgba(227, 0, 255, 0.15);
+      border-width: 1px;
+    }
+  </style>
+
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="./home.html"><b>BookShelf.com</b></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="./home.html">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../html/c.html">C</a></li>
+                <li><a href="../html/cpp.html">C++</a></li>
+                <li><a href="../html/java.html">Java</a></li>
+                <li><a href="../html/python.html">Python</a></li>
+              </ul>
+            </li>
+            <li><a href="../html/about-us.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <form class="navbar-form navbar-left" action="/action_page.php">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <li><a href="../api/User/logout.php"><span class="glyphicon glyphicon-user"></span>Sign Out</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="category-name">
+      <h1>Python Books</h1>
+    </div>
+
+    <div class="card-container">
+      
+        
+        <div class="card">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51I1iu7LvQL._SX431_BO1,204,203,200_.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <br>
+          <a href="https://www.dropbox.com/s/dde47eo0uuayniv/Head%20First%20Python%2C%20First%20Edition%20%282010%29.pdf?dl=0" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+        
+            <div class="card">
+        <img class="card-img-top" src="https://rukminim1.flixcart.com/image/832/832/jpu324w0/book/7/1/2/learning-python-original-imafbzzge8jj52da.jpeg?q=70" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <br>
+          <a href="https://rukminim1.flixcart.com/image/832/832/jpu324w0/book/7/1/2/learning-python-original-imafbzzge8jj52da.jpeg?q=70" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+        
+        <div class="card">
+        <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <br>
+          <a href="https://www.dropbox.com/s/09wbku2qbyyl18m/Python%20-%20Andrew%20Johansen.pdf?dl=0" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+        
+    <div class="card">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51DdcwQ63PL._SX381_BO1,204,203,200_.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <br>
+          <a href="https://www.dropbox.com/s/6u6ccrxoitya0az/thinkpython.pdf?dl=0" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+             
+        
+
+        <!-- Add more books here -->
+
+    </div>
+
+    <footer>
+      <div class="footer" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4> <img style="height: 40px" src="../res/favicon/android-chrome-192x192.png" alt="logo"> &nbsp;BookShelf.com </h4>
+              <p>
+                BookShelf.com aims to provide all the well known standard books in well categorized format, all accumulated in one place i.e. website. It will help the students and learners and to find probably the best books of the world in a
+                particular field.
+              </p>
+            </div>
+            <div class="col-lg-3 col-sm-2 col-xs-3">
+              <h3> Contact </h3>
+              <ul>
+                <li><a class="email" href="#"> bookshelf.appodex@gmail.com </a></li>
+                <br />
+                <li>
+                  <p> Computer Science and Engineering Department PSIT </p>
+                </li>
+                <li>
+                  <p> Bhauti, Kanpur-209305 </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-2 col-xs-3">
+              <ul>
+                <li>
+                  <h5> <a href="#" style="margin-top: 5em"> ABOUT US</a>
+                    </h5>
+                </li>
+                <li>
+                  <h5><a href="#"> CONTACT US </a>
+                    </h5>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="pull-left copyright"> Copyright © Appodex 2019. All right reserved. </p>
+
+          </div>
+        </div>
+        </div>
+    </footer>
+
+  </body>
+</html>
