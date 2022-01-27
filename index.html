@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../res/favicon/site.webmanifest">
+        <!-- Local CSS Stylesheet -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- local header stykesheet -->
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <!-- local footer stylesheet -->
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <!-- local cars stylesheet -->
+        <link rel="stylesheet" href="./assets/css/cards.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!-- API for Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+        <title>BookShelf.com</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Varela+Round&display=swap" rel="stylesheet">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113374538-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-113374538-2');
+        </script>
+    </head>
+    <body>
+        <div class="header" style="position: fixed; align-self: top; width: 100%; border-radius: -2px;">
+            <nav class="navbar navbar-inverse navbar-expand-lg">
+              <div class="container-fluid">
+                <div class="navbar-header navbar-left">
+                  <a class="navbar-brand" href="index.html">
+                    <b>BookShelf.com</b></a>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerbtn" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="display:None">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerbtn">
+                    <ul class="nav navbar-nav navbar-center mr-auto mt-2 mt-md-0">
+                        <form class="navbar-form navbar-center" action="/action_page.php">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                                </div>
+                            </div>
+                        </form>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right mr-auto mt-2 mt-md-0">
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./html/c.html">C</a></li>
+                            <li><a href="./html/cpp.html">C++</a></li>
+                            <li><a href="./html/java.html">Java</a></li>
+                            <li><a href="./html/python.html">Python</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="./html/about-us.html">About</a></li>
+                        <li><a href="https://www.linkedin.com/in/shang1118/">Contact</a></li>
+                    <li><a href="./api/User/logout.php"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div class="heading" style="padding-top: 3%;">
+            <h1>Recommended Books</h1>
+          </div>
+        <!-- books cart -->
+          <div class="card-container">
+            <div class="card">
+              <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <br>
+                <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="http://bit.ly/35AvGTR" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <br>
+                  <a href="https://www.dropbox.com/s/ihqqipdpollt1zr/let_us_c.pdf?dl=1" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+            <div class="card">
+              <img class="card-img-top" src="http://bit.ly/32dflCm" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <br>
+                <a href="https://www.dropbox.com/s/i2qfh9jqoc4pz2w/head_first_java.pdf?dl=1" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/41Jbi2BlgEL._SX403_BO1,204,203,200_.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <br>
+                <a href="https://www.dropbox.com/s/ry3gicihcpgl1op/python_programming_john_m_zelle.pdf?dl=1" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img class="card-img-top" src="https://b2n5k8x3.stackpathcdn.com/assets/thumbs/ca3/ca32d262ebcc6ca1009291c775fa1c1c.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <br>
+                <a href="https://www.dropbox.com/s/izct2vg2s8zxvwk/OOP_with_c%2B%2B_e_balaguruswamy.pdf?dl=1" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51ixeaeQMwL._SX373_BO1,204,203,200_.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <br>
+                <a href="https://www.dropbox.com/s/trl7ak4r4gvpbnm/r_programming_for_data_science.pdf?dl=1" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Footer -->
+          <footer>
+            <div class="footer" id="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        
+                    <h4><img style="height: 60px" src="../res/favicon/android-chrome-192x192.png" alt="logo"> &nbspBookShelf.com </h4>
+                    <p>
+                      BookShelf.com aims to provide all the well known standard books in well categorized format, all accumulated in one place i.e. website. It will help the students and learners and to find probably the best books of the world in a
+                      particular field.
+                    </p>
+                  </div>
+                  <div class="col-lg-3 col-sm-2 col-xs-3">
+                    <h3> Contact </h3>
+                    <ul>
+                      <li><a class="email" href="#"> bookshelf.appodex@gmail.com </a></li>
+                      <br />
+                      <li>
+                        <p> Computer Science and Engineering Department PSIT </p>
+                      </li>
+                      <li>
+                        <p> Bhauti, Kanpur-209305 </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-2 col-xs-3">
+                    <ul>
+                      <li>
+                        <h5> <a href="./html/about-us.html" style="margin-top: 5em"> ABOUT US</a>
+                          </h5>
+                      </li>
+                      <li>
+                        <h5><a href="https://www.linkedin.com/in/shang1118/"> CONTACT US </a>
+                          </h5>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="footer-bottom">
+                <div class="container">
+                    <p class="pull-left" style="font-size: 2rem;">Made with ♥ <a href="http://helloshantanu.ml" style="color:brown; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Shantanu Gupta</a></p>
+                </div>
+              </div>
+              </div>
+          </footer>
+        
+    </body>
+</html>
